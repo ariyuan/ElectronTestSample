@@ -8,7 +8,7 @@ describe('application launch', function () {
 
   before(function () {
     this.app = new Application({
-      path: 'c:\\Git_Code\\alm_qot\\electron\\electron-dist\\QoT-win32-ia32\\QoT.exe',
+      path: 'c:\\application.exe',
     })
     return this.app.start()
   })
